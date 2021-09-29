@@ -1,7 +1,7 @@
-name: "QuitPredictions1"
+name: QuitPredictions1
 output_dir: ../docs
 navbar:
-  title: "QuitPredictions1"
+  title: QuitPredictions1
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/nick.coronato/QuitPredictions1
 output:
   workflowr::wflow_html:
     toc: yes
